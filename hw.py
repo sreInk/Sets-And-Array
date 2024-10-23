@@ -1,0 +1,18 @@
+c = {"Blue","Yellow"}
+d = {"Blue","Green"}
+print("The Original Vaule:")
+print(c)
+print(d)
+print("The Edited Vaule:")
+z = c.intersection(d)
+print(z)
+z1 = c.union(d)
+print(z1)
+z2=c.difference(d)
+z3= d.difference(c)
+z4= c.symmetric_difference(d)
+z5= d.symmetric_difference(c)
+print(z2)
+print(z3)
+print(z5)
+print(z4)
